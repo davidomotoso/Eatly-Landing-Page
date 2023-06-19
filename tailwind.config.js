@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./Eatly/index.html"],
+  content: ["./Eatly/Eatly-Home-page/index.html"],
   theme: {
     extend: {
       screens: {
