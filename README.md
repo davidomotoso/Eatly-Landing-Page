@@ -40,7 +40,7 @@ To set up the project locally, follow these steps:
 git clone "https://github.com/davidomotoso/Eatly-Landing-Page.git"
 ```
 
-2. Navigate to the Eatly-Landing-Page folder.
+2. Navigate to the Eatly-Landing-Page folder then move to "Eatly Home Page".
 
 3. Open the HTML file (index.html) in a web browser.
 
