@@ -40,7 +40,7 @@ Here is a link to the <a href="https://www.behance.net/gallery/172337771/landing
 
 This a visual demo of the project
 
-<img src="imgSrc/Eatly.gif" alt="Demo of Eatly website" width="100%" height="100%">
+<img src="Eatly-Home-page/imgSrc/Eatly.gif" alt="Demo of Eatly website" width="100%" height="100%">
 
 ## Setup
 
