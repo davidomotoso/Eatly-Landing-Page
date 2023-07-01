@@ -34,11 +34,11 @@ The project uses the following technologies:
 
 ## Demo
 
-This project was Design by Mr <a  href="mailto:danielomotoso52@gmail.com">Daniel</a>.
+This project was designed by Mr <a  href="mailto:danielomotoso52@gmail.com">Daniel</a>.
 
 Here is a link to the <a href="https://www.behance.net/gallery/172337771/landing-page-of-food-website">Design</a>.
 
-This a visual demo of the project
+This a visual demo of the project:
 
 <img src="Eatly-Home-page/imgSrc/Eatly.gif" alt="Demo of Eatly website" width="100%" height="100%">
 
