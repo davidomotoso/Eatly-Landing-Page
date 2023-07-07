@@ -26,19 +26,19 @@ The project uses the following technologies:
 
 - HTML
 
-- Tailwindcss (<a href="https://tailwindcss.com/docs/installation"> Get started with Tailwindcss</a>)
+- Tailwindcss ([Get started with Tailwindcss](https://tailwindcss.com/docs/installation))
 
-- Bootstrap Icons (<a href="https://icons.getbootstrap.com/"> Bootstrap icons website</a>)
+- Bootstrap Icons ([Bootstrap icons website](https://icons.getbootstrap.com/))
 
-- Font Awesome (<a href="https://fontawesome.com/">Font Awesome website</a>)
+- Font Awesome ([Font Awesome website](https://fontawesome.com/))
 
 ## Demo
 
-This project was designed by Mr <a  href="mailto:danielomotoso52@gmail.com">Daniel</a>.
+This project was Design by Mr [Daniel](mailto:danielomotoso52@gmail.com).
 
-Here is a link to the <a href="https://www.behance.net/gallery/172337771/landing-page-of-food-website">Design</a>.
+Here is a link to the [Design](https://www.behance.net/gallery/172337771/landing-page-of-food-website).
 
-This a visual demo of the project:
+This a visual demo of the project
 
 <img src="Eatly-Home-page/imgSrc/Eatly.gif" alt="Demo of Eatly website" width="100%" height="100%">
 
@@ -48,8 +48,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 
-```
-git clone "https://github.com/davidomotoso/Eatly-Landing-Page.git"
+```Git
+git clone "<https://github.com/davidomotoso/Eatly-Landing-Page.git>"
 ```
 
 2. Navigate to the Eatly-Landing-Page folder then move to "Eatly-Home-Page".
@@ -65,3 +65,23 @@ Feel free to modify the HTML and CSS files to customize the homepage according t
 ## Contributing
 
 Contributions to the project are welcome. If you find any issues or want to add new features, you can submit a pull request.
+
+## Note
+
+### Tailwind Configuration Files
+
+#### The `tailwind.config.dev.js` File
+
+---
+
+The `tailwind.config.dev.js` file serves as a placeholder file for developers. Its purpose is to simplify the configuration process of `tailwindcss`.
+Within this file, you will find various CSS objects that can be customized and configured based on your specific needs. Feel free to add your own properties and tweak the configurations according to your project requirements.
+
+#### The `tailwind.config.js` File
+
+---
+
+The `tailwind.config.js` file is where the actual configuration for `tailwindcss` resides. It is the primary file where you can make modifications to Tailwind's default configuration.
+By referencing and importing the CSS objects defined in the `tailwind.config.dev.js` file, you can easily customize and extend the configuration of Tailwind CSS.
+
+Please note that the `tailwind.config.dev.js` file is not required for the functionality of `tailwindcss`, but it serves as a convenient tool to streamline the configuration process for developers.
