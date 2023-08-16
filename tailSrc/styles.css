@@ -14,4 +14,7 @@
     border-radius: 10px;
     background-color: #977cd7;
   }
+  .smooth {
+    scroll-behavior: smooth;
+  }
 }

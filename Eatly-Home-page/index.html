@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,11 +30,23 @@
         class="flex flex-wrap gap-4 justify-between items-center pb-24 relative sm:px-8 mobile:px-4"
       >
         <h1 class="text-5xl font-semibold text-orange-300">Eatly</h1>
-        <ul class="flex flex-wrap gap-y-4 gap-x-12 text-lg text-white">
-          <li>Programs</li>
-          <li>Services</li>
-          <li>News</li>
-          <li>About us</li>
+        <ul class="flex flex-wrap gap-y-2 gap-x-12 text-lg text-white">
+          <li>
+            <a class="hover:text-black duration-500" href="#programs"
+              >Programs</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-black duration-500" href="#services"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-black duration-500" href="#news">News</a>
+          </li>
+          <li>
+            <a class="hover:text-black duration-500" href="#about">About us</a>
+          </li>
         </ul>
         <button
           type="submit"
@@ -104,7 +116,10 @@
       </div>
     </div>
     <!-- Second Section -->
-    <div class="mb-8 mx-auto sm:w-[90%] mobile:w-full sm:px-0 mobile:px-4">
+    <div
+      class="mb-8 mx-auto sm:w-[90%] mobile:w-full sm:px-0 mobile:px-4"
+      id="programs"
+    >
       <h1 class="text-3xl font-semibold text-[#675690] pb-24">
         <i
           class="fa-solid fa-crown text-[#fee08e] rounded-lg p-2 bg-gradient-to-tr from-[#ad89f2] to-[#a169f9]"
@@ -114,10 +129,10 @@
       <section>
         <div class="bg-[#f3efef] p-3 rounded-3xl">
           <div
-            class="bg-[#8a4eec] p-4 flex flex-wrap gap-x-4 gap-y-20 rounded-3xl justify-evenly"
+            class="bg-[#8a4eec] xl:h-80 p-4 flex flex-wrap gap-x-4 gap-y-20 rounded-3xl justify-evenly"
           >
             <div
-              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500"
+              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500 shadow-md shadow-black/70 hover:shadow-none"
             >
               <i
                 class="fa-solid group-hover:bg-[#fce28e] group-hover:text-[#834b00] fa-bowl-food mb-6 text-3xl text-[#FCE28E] bg-[#803afc] p-2 px-3 rounded-lg border-2 border-gray-400"
@@ -131,7 +146,7 @@
               </button>
             </div>
             <div
-              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500"
+              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500 shadow-md shadow-black/70 hover:shadow-none"
             >
               <i
                 class="fa-solid group-hover:bg-[#fce28e] group-hover:text-[#834b00] fa-utensils mb-6 text-3xl text-[#FCE28E] bg-[#803afc] p-2 px-3 rounded-lg border-2 border-gray-400"
@@ -145,7 +160,7 @@
               </button>
             </div>
             <div
-              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500"
+              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500 shadow-md shadow-black/70 hover:shadow-none"
             >
               <i
                 class="fa-solid group-hover:bg-[#fce28e] group-hover:text-[#834b00] fa-apple-whole mb-6 text-3xl text-[#FCE28E] bg-[#803afc] p-2 px-3 rounded-lg border-2 border-gray-400"
@@ -159,7 +174,7 @@
               </button>
             </div>
             <div
-              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500"
+              class="text-white grid w-64 group hover:bg-gradient-to-r from-[#ffd472] to-[#fbba1d] place-items-center cursor-pointer py-2 rounded-lg hover:scale-105 hover:text-black duration-500 shadow-md shadow-black/70 hover:shadow-none"
             >
               <i
                 class="fa-solid group-hover:bg-[#fce28e] group-hover:text-[#834b00] fa-shield-heart mb-6 text-3xl text-[#FCE28E] bg-[#803afc] p-2 px-3 rounded-lg border-2 border-gray-400"
@@ -179,6 +194,7 @@
     <!-- Third section -->
     <section
       class="sm:px-8 mobile:px-4 mt-36 relative flex lg:items-end gap-20 justify-center flex-wrap mobile:items-center"
+      id="services"
     >
       <div class="relative">
         <div
@@ -305,6 +321,7 @@
     <!-- Fifth section -->
     <section
       class="flex flex-wrap items-end justify-center gap-x-36 gap-y-20 mt-36 mb-24 sm:px-8 mobile:px-4"
+      id="news"
     >
       <div>
         <div class="sm:w-[26em] mobile:w-full">
@@ -448,6 +465,7 @@
     <!-- Sixth section -->
     <section
       class="sm:px-8 mobile:px-4 flex flex-wrap gap-y-28 items-center justify-center gap-x-36 mt-56 mb-12"
+      id="about"
     >
       <div class="relative">
         <div
